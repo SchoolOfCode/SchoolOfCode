@@ -1,0 +1,56 @@
+h1 {
+  font-family: "Bangers", cursive;
+  color: black;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+}
+p {
+  border-style: solid;
+  border-color: pink;
+  position: relative;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  padding: 0%;
+  animation: text 1s infinite;
+}
+body {
+  background-image: linear-gradient(purple, pink);
+  height: 100vh;
+}
+header {
+  background-color: rgb(151, 200, 5);
+  position: relative;
+  width: calc(50vw - 100px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: larger;
+}
+@keyframes text {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: red;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: red;
+  }
+}
+@keyframes img {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 10%;
+  }
+}

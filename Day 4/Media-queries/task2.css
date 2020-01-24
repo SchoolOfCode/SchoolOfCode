@@ -1,0 +1,31 @@
+#box {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 300px) {
+  body {
+    font-family: "Dancing Script", cursive;
+    background-color: palegoldenrod;
+    border: 2px solid black;
+    border-radius: 100%;
+  }
+}
+
+@media screen and (min-width: 301px) and (max-width: 600px) {
+  body {
+    font-family: "Lobster", cursive;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10%;
+  }
+}
+@media screen and (min-width: 900px) {
+  body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: fuchsia;
+    border: 2px dotted black;
+    border: round 0%;
+    border-radius: 0%;
+  }
+}
